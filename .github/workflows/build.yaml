@@ -27,7 +27,7 @@ jobs:
         with:
           context: .
           file: Dockerfile
-          tags: chief20/demo_namespaxe:1.0
+          tags: chief20/demo_namespaxe:1.1
           push: true
 
       - name: Logout from Docker Hub
